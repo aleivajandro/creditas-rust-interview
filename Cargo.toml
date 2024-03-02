@@ -1,0 +1,15 @@
+[package]
+name = "creditas_rust_interview"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "creditas_rust_interview"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+config = "0.11"
