@@ -6,7 +6,9 @@
 
     curl https://sh.rustup.rs -sSf | sh
     
-    cargo new exercise
+    cargo new creditas_rust_interview
+    
+    cargo add uuid
 
     cargo check 
     
